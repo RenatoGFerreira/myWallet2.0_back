@@ -1,0 +1,33 @@
+{
+  "name": "mywallet2.0_back",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "BackEnd do projeto MyWallet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenatoGFerreira/myWallet2.0_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenatoGFerreira/myWallet2.0_back/issues"
+  },
+  "homepage": "https://github.com/RenatoGFerreira/myWallet2.0_back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "mongodb": "^6.3.0",
+    "node": "^21.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
